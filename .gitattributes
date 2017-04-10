@@ -1,1 +1,2 @@
 *.md filter=git-crypt diff=git-crypt
+*.yml filter=git-crypt diff=git-crypt
