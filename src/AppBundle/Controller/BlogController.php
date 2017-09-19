@@ -11,6 +11,7 @@
 
 amespace AppBundle\Controller;
 
+//Adding comment line to test git merge in jenkins.
 use AppBundle\Entity\Comment;
 use AppBundle\Entity\Post;
 use AppBundle\Events;
