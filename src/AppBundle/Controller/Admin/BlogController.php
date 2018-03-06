@@ -35,7 +35,7 @@ use Symfony\Component\HttpFoundation\Request;
  * @author Ryan Weaver <weaverryan@gmail.com>
  * @author Javier Eguiluz <javier.eguiluz@gmail.com>
  */
-
+//test
 class BlogController extends Controller
 {
     /**
