@@ -10,12 +10,13 @@
  */
 
 namespace AppBundle\DataFixtures;
-
+/////////////////tttttttttttttttttttttttttttt
 /**
  * Helper class to create fixtures contents.
  */
 trait FixturesTrait
 {
+    //tttttttttttttttttttttttttttt
     private function getPostContent()
     {
         return <<<'MARKDOWN'
