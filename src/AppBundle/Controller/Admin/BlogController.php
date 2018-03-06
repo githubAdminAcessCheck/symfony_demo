@@ -19,7 +19,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\HttpFoundation\Request;
-
+//test
 /**
  * Controller used to manage blog contents in the backend.
  *
@@ -35,6 +35,7 @@ use Symfony\Component\HttpFoundation\Request;
  * @author Ryan Weaver <weaverryan@gmail.com>
  * @author Javier Eguiluz <javier.eguiluz@gmail.com>
  */
+//test
 class BlogController extends Controller
 {
     /**
@@ -53,7 +54,7 @@ class BlogController extends Controller
      * @Method("GET")
      */
     public function indexAction()
-    {
+    { //test
         $entityManager = $this->getDoctrine()->getManager();
         $posts = $entityManager->getRepository(Post::class)->findBy(['author' => $this->getUser()], ['publishedAt' => 'DESC']);
 
