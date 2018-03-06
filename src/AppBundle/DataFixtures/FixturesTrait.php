@@ -16,6 +16,7 @@ namespace AppBundle\DataFixtures;
  */
 trait FixturesTrait
 {
+    //tttttttttttttttttttttttttttt
     private function getPostContent()
     {
         return <<<'MARKDOWN'
