@@ -54,7 +54,7 @@ class BlogController extends Controller
      * @Method("GET")
      */
     public function indexAction()
-    {
+    { //test
         $entityManager = $this->getDoctrine()->getManager();
         $posts = $entityManager->getRepository(Post::class)->findBy(['author' => $this->getUser()], ['publishedAt' => 'DESC']);
 
