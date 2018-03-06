@@ -35,6 +35,7 @@ use Symfony\Component\HttpFoundation\Request;
  * @author Ryan Weaver <weaverryan@gmail.com>
  * @author Javier Eguiluz <javier.eguiluz@gmail.com>
  */
+
 class BlogController extends Controller
 {
     /**
@@ -52,6 +53,7 @@ class BlogController extends Controller
      * @Route("/", name="admin_post_index")
      * @Method("GET")
      */
+
     public function indexAction()
     {
         $entityManager = $this->getDoctrine()->getManager();
