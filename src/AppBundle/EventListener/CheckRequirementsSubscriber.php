@@ -19,7 +19,7 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
-//rttrtrtrt
+//rttrtrtrtsdksdksjdksjdksjdk
 /**
  * This application uses by default an SQLite database to store its information.
  * That's why the 'sqlite3' extension must be enabled in PHP. This event
